@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Regular.eot');
+    src: url('fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Roboto-Regular.woff2') format('woff2'),
+         url('fonts/Roboto-Regular.woff') format('woff'),
+         url('fonts/Roboto-Regular.ttf') format('truetype'),
+         url('fonts/Roboto-Regular.svg#Roboto-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Medium.eot');
+    src: url('fonts/Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Roboto-Medium.woff2') format('woff2'),
+         url('fonts/Roboto-Medium.woff') format('woff'),
+         url('fonts/Roboto-Medium.ttf') format('truetype'),
+         url('fonts/Roboto-Medium.svg#Roboto-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+.container {
+    background-color: #EEEFF1;
+    width: 1920px;
+    padding: 0 0 0 399px;
+    
+}
+.menu li {
+    display: inline-block;
+}
+.menu a {
+    text-decoration: none;
+    padding: 0 0 0 42px;
+    color: #000000;
+}
+.menu #m_menu a {
+    padding: 0 0 0 0;
+    color: #34547A;
+}
+#m_menu {
+    font-weight: 500;
+    
+}
+.menu {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    width: 611px;
+    text-align: left;
+    text-transform: uppercase;
+    margin: 79px 0 160px 0;
+}
+*{
+    box-sizing: border-box;
+}

@@ -22,11 +22,11 @@
     font-style: normal;
     font-display: swap;
 }
+
 .container {
     background-color: #EEEFF1;
     width: 1920px;
-    padding: 0 0 0 399px;
-    
+    padding: 79px 0 0 399px;
 }
 .menu li {
     display: inline-block;
@@ -42,16 +42,55 @@
 }
 #m_menu {
     font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
     
 }
 .menu {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
     width: 611px;
     text-align: left;
     text-transform: uppercase;
-    margin: 79px 0 160px 0;
+    margin: 0 0 160px 0;
 }
 *{
     box-sizing: border-box;
 }
+.headline {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: left;
+    vertical-align: top;
+    margin: 0 0 45px 0;
+}
+.text1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    width: 540px;
+    line-height: 26px;
+    text-align: left;
+    vertical-align: top;
+    margin: 0 0 54px 0;
+    color: #727272;
+    padding: 0 0 0 1; /* слева отступ для текста уже задан 399 пикселей, чтоб сделать согласно макета (400 пикселей),
+     добавил отступ в 1 пиксель исключительно для этого текста*/
+}
+.button1 {
+    font-family: 'Roboto', sans-serif;
+    background-color: #34547A; 
+    border: none;
+    color: #FFFFFF;
+    padding: 20px 41px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0 0 141px 0;
+    }

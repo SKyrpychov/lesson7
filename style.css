@@ -129,3 +129,41 @@ h2 {
    display: inline-block;
    vertical-align: top;
    margin: 0 49px 0 0;
+}
+.text3 {
+    /*text-align: center;*/
+    vertical-align: top;
+    margin: 0 auto 46px;
+}
+.about_work {
+    margin: 0 auto 42px;
+}
+.text_box {
+    background-color: #EEEFF1;
+    padding: 100px 0 100px 0; 
+}
+.video {
+    margin: 0 405px 100px;
+}
+.footer {
+    padding: 50px 0 47px 406px;
+    background-color: #34547A;
+}
+.about_footer {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 24px;
+    text-align: left;
+    vertical-align: middle;
+    color: #FFFFFF;
+    margin: 0 0 15px ;
+}
+.text_footer {
+    font-size: 13px;
+    line-height: 15px;
+    text-align: left;
+    vertical-align: middle;
+    color: #FFFFFF;
+    margin: 0 ;
+}
